@@ -1,0 +1,7 @@
+#!/bin/bash
+
+go get golang.org/x/sys
+go get golang.org/x/term
+
+go build -o clock ./src
+mv clock /usr/bin/
